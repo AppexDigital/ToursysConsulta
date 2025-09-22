@@ -1,0 +1,11 @@
+# Este archivo le indica a Netlify cómo construir y desplegar el sitio.
+# Es el plano maestro para nuestro equipo de construcción automático.
+
+[build]
+  # No hay un paso de construcción para este proyecto simple.
+  # Netlify servirá los archivos desde la raíz del proyecto.
+
+[functions]
+  # Directorio donde Netlify buscará las funciones serverless.
+  # Cada archivo .js aquí se convierte en un endpoint de API.
+  directory = "functions/"
